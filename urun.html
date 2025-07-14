@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ürün Detayı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Heybem Çarşı</h1>
+    <p><a href="index.html">← Anasayfaya Dön</a></p>
+  </header>
+
+  <main id="urun-detay">
+    <!-- Ürün detayları buraya yüklenecek -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Heybem Çarşı | <a href="https://www.instagram.com/heybemcarsi/" target="_blank">Instagram</a></p>
+  </footer>
+
+  <script>
+    // Aynı ürünler dizisi ama bu sefer detaylı fotoğraflar ve açıklama ekli
+const urunler = [
+  {
+    id: 1,
+    baslik: "Doğal Taş Kolye",
+    fiyat: "120₺",
+    aciklama: "Doğal taşlardan elde üretilmiş şık kolye.",
+    gorseller: [
+      "img/aksesuar1.jpg",
+      "img/aksesuar1b.jpg",
+      "img/aksesuar1c.jpg"
+    ],
+  },
+  {
+    id: 2,
+    baslik: "Organik Limon Kolonyası",
+    fiyat: "90₺",
+    aciklama: "Tamamen doğal içerikli, ferahlatıcı kolonya.",
+    gorseller: ["img/temizlik1.jpg"],
+  },
+  {
+    id: 3,
+    baslik: "Ahşap Duvar Süsü",
+    fiyat: "150₺",
+    aciklama: "El yapımı dekoratif ahşap süs.",
+    gorseller: ["img/dekor1.jpg"],
+  },
+  {
+    id: 4,
+    baslik: "Elde Örülmüş Kese",
+    fiyat: "65₺",
+    aciklama: "Pamuk ipliğinden örülmüş küçük hediyelik kese.",
+    gorseller: ["img/hediyelik1.jpg"],
+  },
+  {
+    id: 5,
+    baslik: "Forscher",
+    fiyat: "250₺",
+    aciklama: "%100 organik bileşiklerle üretilmiş kesin sonuç veren temizlik ürünleri.",
+    gorseller: ["img/Forscher.jpg"],
+  },
+  {
+    id: 6,
+    baslik: "Solingen 6'lı Bıçak Seti",
+    fiyat: "350₺",
+    aciklama: "Almanya'da üretilen çok keskin bıçak %100 orijinal.",
+    gorseller: ["img/Solingen.jpg"],
+  },
+  {
+    id: 7,
+    baslik: "Dekoratif Elma",
+    fiyat: "150₺",
+    aciklama: "%100 El Yapımı Doğal Taştan.",
+    gorseller: ["img/Elma.jpg"],
+  },
+  {
+    id: 8,
+    baslik: "Mop",
+    fiyat: "450₺",
+    aciklama: "Evde temizlik işlerini kolaylaştıracak.",
+    gorseller: ["img/Mop.jpg"],
+  }
+];
+
+    // URL'den ürün id'sini al
+    function getUrunIdFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return parseInt(params.get("id"));
+    }
+
+    function urunDetayiYukle() {
+      const urunId = getUrunIdFromURL();
+      const urun = urunler.find(u => u.id === urunId);
+
+      const container = document.getElementById("urun-detay");
+
+      if (!urun) {
+        container.innerHTML = "<p>Ürün bulunamadı.</p>";
+        return;
+      }
+
+      const galeri = urun.gorseller.map(src => `<img src="${src}" alt="${urun.baslik}" class="detail-image" />`).join("");
+
+      container.innerHTML = `
+        <h2>${urun.baslik}</h2>
+        <div class="urun-galeri">${galeri}</div>
+        <p>${urun.aciklama}</p>
+        <p><strong>Fiyat:</strong> ${urun.fiyat}</p>
+        <a href="https://wa.me/905536734883?text=Merhaba,+${encodeURIComponent(urun.baslik)}+ile+ilgileniyorum" target="_blank">
+          <button class="whatsapp-btn">WhatsApp'tan Sipariş Ver</button>
+        </a>
+      `;
+    }
+
+    window.onload = urunDetayiYukle;
+  </script>
+</body>
+</html>
