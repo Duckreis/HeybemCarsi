@@ -12,6 +12,16 @@ const urunler = [
   { id: 13, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Soyacak", fiyat: 90.00, kapakFoto: "img/urun_13.png" },
   { id: 14, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Çift Taraflı Soyacak", fiyat: 110.00, kapakFoto: "img/urun_14.png" },
 
+  // Mutfak / Zwilling
+  { id: 5603, kategori: "mutfak", altKategori: "Zwilling", baslik: "Zwilling 3'lü Bıçak Seti", fiyat: 5600.00, kapakFoto: "img/urun_5603.png" },
+  { id: 5602, kategori: "mutfak", altKategori: "Zwilling", baslik: "Zwilling 2'li Satır Seti", fiyat: 5600.00, kapakFoto: "img/urun_5602.png" },
+
+  // Mutfak / Tupperware
+  { id: 101, kategori: "mutfak", altKategori: "Tupperware", baslik: "Tupperware Tereyağlık", fiyat: 750.00, kapakFoto: "img/urun_101.png" },
+  { id: 102, kategori: "mutfak", altKategori: "Tupperware", baslik: "Tupperware 3'lü Saklama Kabı", fiyat: 750.00, kapakFoto: "img/urun_102.png" },
+  { id: 103, kategori: "mutfak", altKategori: "Tupperware", baslik: "Tupperware 7.5LT Saklama Kabı", fiyat: 2000.00, kapakFoto: "img/urun_103.png" },
+  { id: 104, kategori: "mutfak", altKategori: "Tupperware", baslik: "Tupperware Sebze Kurutucu", fiyat: 3000.00, kapakFoto: "img/urun_104.png" },
+  
   // Mutfak / Diğer
   { id: 15, kategori: "mutfak", altKategori: "Diğer", baslik: "Ay-bi Kasap Seti 4'lü", fiyat: 750.00, kapakFoto: "img/urun_15.png" },
   { id: 16, kategori: "mutfak", altKategori: "Diğer", baslik: "Satır", fiyat: 500.00, kapakFoto: "img/urun_16.png" },
@@ -54,6 +64,11 @@ const urunler = [
   { id: 47, kategori: "temizlik", altKategori: "Diğer", baslik: "Tüy Toplayan Gırgır", fiyat: 130.00, kapakFoto: "img/urun_47.png" },
   { id: 61, kategori: "temizlik", altKategori: "Diğer", baslik: "Koku Topu", fiyat: 200.00, kapakFoto: "img/urun_61.png" },
 
+  // Ev Hijyen & Temizlik / BioBellinda
+  { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },
+  { id: 1102, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda Wc & Banyo Temizleyici 750ML", fiyat: 230.00, kapakFoto: "img/urun_1102.png" },
+  { id: 1103, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda Duşakabin Temizleyici", fiyat: 230.00, kapakFoto: "img/urun_1103.png" },  
+
   // Ev Hijyen & Temizlik / Forscher
   { id: 54, kategori: "temizlik", altKategori: "Forscher", baslik: "Amazing Temizlik Spreyi", fiyat: 190.00, kapakFoto: "img/urun_54.png" },
   { id: 154, kategori: "temizlik", altKategori: "Forscher", baslik: "Fırın & Izgara Temizleyici", fiyat: 190.00, kapakFoto: "img/urun_154.png" },
@@ -85,4 +100,8 @@ const urunler = [
 
   // Diğer / Aydınlatma (yeni alt kategori)
   { id: 64, kategori: "diğer", altKategori: "Aydınlatma", baslik: "Masa Lambası", fiyat: 550.00, kapakFoto: "img/urun_64.png" }
+
+  // Hediyelik Eşya / Tümü
+  { id: 150, kategori: "hediyelik", altKategori: "Tümü", baslik: "%100 Doğal Onyx Taşından Elma", fiyat: 150.00, kapakFoto: "img/urun_150.png" }
+  { id: 151, kategori: "hediyelik, altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" }
 ];
