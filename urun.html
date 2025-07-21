@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ürün Detayı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo.png" alt="Heybem Çarşı Logo" class="site-logo">
+        </a>
+        <h1>Heybem Çarşı</h1>
+        <div class="cart-info">
+            <a href="sepet.html" class="cart-link">
+                <img src="img/cart-icon.png" alt="Sepet">
+                <span id="sepet-sayaci">(0)</span>
+            </a>
+        </div>
+    </div>
+    <p><a href="index.html">← Anasayfaya Dön</a></p>
+  </header>
+
+  <main id="urun-detay">
+    </main>
+
+  <footer>
+    <p>&copy; 2025 Heybem Çarşı | <a href="https://www.instagram.com/heybemcarsi/" target="_blank">Instagram</a></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="cart.js"></script>
+  <script>
+    // URL'den ürün id'sini al
+    function getUrunIdFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      return parseInt(params.get("id"));
+    }
+
+    function urunDetayiYukle() {
+      const urunId = getUrunIdFromURL();
+      const urun = urunler.find(u => u.id === urunId);
+
+      const container = document.getElementById("urun-detay");
+
+      if (!urun) {
+        container.innerHTML = "<p>Ürün bulunamadı.</p>";
+        return;
+      }
+
+      // Ürünün birden fazla görseli varsa galeri oluştur
+      const galeri = (urun.gorseller && urun.gorseller.length > 0)
+        ? urun.gorseller.map(src => `<img src="${src}" alt="${urun.baslik}" class="detail-image" />`).join("")
+        : `<img src="${urun.kapakFoto}" alt="${urun.baslik}" class="detail-image" />`; // Tek görseli varsa onu göster
+
+      container.innerHTML = `
+        <h2>${urun.baslik}</h2>
+        <div class="urun-galeri">
+          ${galeri}
+        </div>
+        <p id="urun-fiyat">Fiyat: ${urun.fiyat.toFixed(2)}₺</p>
+        <p>${urun.aciklama}</p>
+        <button class="add-to-cart-btn" onclick="sepeteEkle(
+            ${urun.id},
+            '${urun.baslik.replace(/'/g, "\\'")}',
+            ${urun.fiyat},
+            '${urun.kapakFoto}'
+        )">Sepete Ekle</button>
+      `;
+    }
+
+    urunDetayiYukle(); // Sayfa yüklendiğinde ürün detayını yükle
+  </script>
+</body>
+</html>
