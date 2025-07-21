@@ -99,9 +99,9 @@ const urunler = [
   { id: 57, kategori: "diğer", altKategori: "Ev Eşyası", baslik: "Koltuk Sehpası", fiyat: 100.00, kapakFoto: "img/urun_57.png" },
 
   // Diğer / Aydınlatma (yeni alt kategori)
-  { id: 64, kategori: "diğer", altKategori: "Aydınlatma", baslik: "Masa Lambası", fiyat: 550.00, kapakFoto: "img/urun_64.png" }
+  { id: 64, kategori: "diğer", altKategori: "Aydınlatma", baslik: "Masa Lambası", fiyat: 550.00, kapakFoto: "img/urun_64.png" },
 
   // Hediyelik Eşya / Tümü
-  { id: 150, kategori: "hediyelik", altKategori: "Tümü", baslik: "%100 Doğal Onyx Taşından Elma", fiyat: 150.00, kapakFoto: "img/urun_150.png" }
-  { id: 151, kategori: "hediyelik, altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" }
+  { id: 150, kategori: "hediyelik", altKategori: "Tümü", baslik: "%100 Doğal Onyx Taşından Elma", fiyat: 150.00, kapakFoto: "img/urun_150.png" },
+  { id: 151, kategori: "hediyelik, altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" },
 ];
