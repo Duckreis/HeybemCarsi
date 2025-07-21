@@ -7,8 +7,8 @@ const urunler = [
   { id: 8, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Rondo", fiyat: 400.00, kapakFoto: "img/urun_8.png" },
   { id: 9, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Rende", fiyat: 350.00, kapakFoto: "img/urun_9.png" },
   { id: 10, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Sebze Kurutucu", fiyat: 450.00, kapakFoto: "img/urun_10.png" },
-  { id: 11, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Tel Çırpıcı", fiyat: 120.00, kapakFoto: "img/urun_11.png" },
-  { id: 12, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Genel Kullanım Bıçak", fiyat: 220.00, kapakFoto: "img/urun_12.png" },
+  { id: 11, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Tel Çırpıcı", fiyat: 70.00, kapakFoto: "img/urun_11.png" },
+  { id: 12, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Genel Kullanım Bıçak", fiyat: 520.00, kapakFoto: "img/urun_12.png" },
   { id: 13, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Soyacak", fiyat: 90.00, kapakFoto: "img/urun_13.png" },
   { id: 14, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Çift Taraflı Soyacak", fiyat: 110.00, kapakFoto: "img/urun_14.png" },
 
@@ -46,22 +46,22 @@ const urunler = [
   { id: 65, kategori: "mutfak", altKategori: "Diğer", baslik: "İkili Burgu", fiyat: 850.00, kapakFoto: "img/urun_65.png" },
 
   // Ev Hijyen & Temizlik / Diğer
-  { id: 17, kategori: "temizlik", altKategori: "Diğer", baslik: "İlbays 3'lü Bez", fiyat: 100.00, kapakFoto: "img/urun_17.png" },
-  { id: 18, kategori: "temizlik", altKategori: "Diğer", baslik: "Puff Bez 3'lü", fiyat: 80.00, kapakFoto: "img/urun_18.png" },
-  { id: 19, kategori: "temizlik", altKategori: "Diğer", baslik: "Tel Bez", fiyat: 70.00, kapakFoto: "img/urun_19.png" },
-  { id: 20, kategori: "temizlik", altKategori: "Diğer", baslik: "Tel Bez Yeni Inox", fiyat: 75.00, kapakFoto: "img/urun_20.png" },
-  { id: 21, kategori: "temizlik", altKategori: "Diğer", baslik: "Telli Sünger", fiyat: 60.00, kapakFoto: "img/urun_21.png" },
-  { id: 22, kategori: "temizlik", altKategori: "Diğer", baslik: "Üçlü Tel Fırça", fiyat: 110.00, kapakFoto: "img/urun_22.png" },
+  { id: 17, kategori: "temizlik", altKategori: "Diğer", baslik: "İlbays 3'lü Bez", fiyat: 250.00, kapakFoto: "img/urun_17.png" },
+  { id: 18, kategori: "temizlik", altKategori: "Diğer", baslik: "Puff Bez 3'lü", fiyat: 100.00, kapakFoto: "img/urun_18.png" },
+  { id: 19, kategori: "temizlik", altKategori: "Diğer", baslik: "Tel Bez", fiyat: 20.00, kapakFoto: "img/urun_19.png" },
+  { id: 20, kategori: "temizlik", altKategori: "Diğer", baslik: "Tel Bez Yeni Inox", fiyat: 30.00, kapakFoto: "img/urun_20.png" },
+  { id: 21, kategori: "temizlik", altKategori: "Diğer", baslik: "Telli Sünger", fiyat: 50.00, kapakFoto: "img/urun_21.png" },
+  { id: 22, kategori: "temizlik", altKategori: "Diğer", baslik: "Üçlü Tel Fırça", fiyat: 50.00, kapakFoto: "img/urun_22.png" },
   { id: 23, kategori: "temizlik", altKategori: "Diğer", baslik: "Microtex Fiber Bez", fiyat: 90.00, kapakFoto: "img/urun_23.png" },
-  { id: 30, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci (10'lu)", fiyat: 120.00, kapakFoto: "img/urun_30.png" },
-  { id: 31, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci Silikon", fiyat: 85.00, kapakFoto: "img/urun_31.png" },
+  { id: 30, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci (10'lu)", fiyat: 90.00, kapakFoto: "img/urun_30.png" },
+  { id: 31, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci Silikon", fiyat: 100.00, kapakFoto: "img/urun_31.png" },
   { id: 32, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Koku Önleyici Silikon", fiyat: 90.00, kapakFoto: "img/urun_32.png" },
   { id: 40, kategori: "temizlik", altKategori: "Diğer", baslik: "WC Örtüsü (50'li)", fiyat: 150.00, kapakFoto: "img/urun_40.png" },
   { id: 41, kategori: "temizlik", altKategori: "Diğer", baslik: "Biber Gazı", fiyat: 200.00, kapakFoto: "img/urun_41.png" },
-  { id: 42, kategori: "temizlik", altKategori: "Diğer", baslik: "Kabak Lifli Sabun", fiyat: 50.00, kapakFoto: "img/urun_42.png" },
-  { id: 43, kategori: "temizlik", altKategori: "Diğer", baslik: "Fiber Kese", fiyat: 40.00, kapakFoto: "img/urun_43.png" },
-  { id: 44, kategori: "temizlik", altKategori: "Diğer", baslik: "Kabak Lifli Kese", fiyat: 45.00, kapakFoto: "img/urun_44.png" },
-  { id: 47, kategori: "temizlik", altKategori: "Diğer", baslik: "Tüy Toplayan Gırgır", fiyat: 130.00, kapakFoto: "img/urun_47.png" },
+  { id: 42, kategori: "temizlik", altKategori: "Diğer", baslik: "Kabak Lifli Sabun", fiyat: 120.00, kapakFoto: "img/urun_42.png" },
+  { id: 43, kategori: "temizlik", altKategori: "Diğer", baslik: "Fiber Kese", fiyat: 120.00, kapakFoto: "img/urun_43.png" },
+  { id: 44, kategori: "temizlik", altKategori: "Diğer", baslik: "Kabak Lifli Kese", fiyat: 150.00, kapakFoto: "img/urun_44.png" },
+  { id: 47, kategori: "temizlik", altKategori: "Diğer", baslik: "Tüy Toplayan Gırgır", fiyat: 100.00, kapakFoto: "img/urun_47.png" },
   { id: 61, kategori: "temizlik", altKategori: "Diğer", baslik: "Koku Topu", fiyat: 200.00, kapakFoto: "img/urun_61.png" },
 
   // Ev Hijyen & Temizlik / BioBellinda
@@ -70,16 +70,16 @@ const urunler = [
   { id: 1103, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda Duşakabin Temizleyici", fiyat: 230.00, kapakFoto: "img/urun_1103.png" },  
 
   // Ev Hijyen & Temizlik / Forscher
-  { id: 54, kategori: "temizlik", altKategori: "Forscher", baslik: "Amazing Temizlik Spreyi", fiyat: 190.00, kapakFoto: "img/urun_54.png" },
-  { id: 154, kategori: "temizlik", altKategori: "Forscher", baslik: "Fırın & Izgara Temizleyici", fiyat: 190.00, kapakFoto: "img/urun_154.png" },
-  { id: 155, kategori: "temizlik", altKategori: "Forscher", baslik: "Yağmur Giderici", fiyat: 190.00, kapakFoto: "img/urun_155.png" },
+  { id: 54, kategori: "temizlik", altKategori: "Forscher", baslik: "Amazing Temizlik Spreyi", fiyat: 150.00, kapakFoto: "img/urun_54.png" },
+  { id: 154, kategori: "temizlik", altKategori: "Forscher", baslik: "Fırın & Izgara Temizleyici", fiyat: 150.00, kapakFoto: "img/urun_154.png" },
+  { id: 155, kategori: "temizlik", altKategori: "Forscher", baslik: "Yağmur Giderici", fiyat: 150.00, kapakFoto: "img/urun_155.png" },
 
   // Ev Hijyen & Temizlik / Mop
   { id: 60, kategori: "temizlik", altKategori: "Mop", baslik: "Mop Büyük Boy", fiyat: 650.00, kapakFoto: "img/urun_60.png" },
 
   // Tekstil / Çamaşır
   { id: 27, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Nevresim İğnesi 4'lü", fiyat: 50.00, kapakFoto: "img/urun_27.png" },
-  { id: 46, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Kurutma Topu", fiyat: 80.00, kapakFoto: "img/urun_46.png" },
+  { id: 46, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Kurutma Topu", fiyat: 250.00, kapakFoto: "img/urun_46.png" },
 
   // Tekstil / Diğer
   { id: 28, kategori: "tekstil", altKategori: "Diğer", baslik: "Halı Kaydırmaz", fiyat: 180.00, kapakFoto: "img/urun_28.png" },
