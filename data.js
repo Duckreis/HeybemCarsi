@@ -103,5 +103,5 @@ const urunler = [
 
   // Hediyelik Eşya / Tümü
   { id: 150, kategori: "hediyelik", altKategori: "Tümü", baslik: "%100 Doğal Onyx Taşından Elma", fiyat: 150.00, kapakFoto: "img/urun_150.png" },
-  { id: 151, kategori: "hediyelik, altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" },
+  { id: 151, kategori: "hediyelik", altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" },
 ]
