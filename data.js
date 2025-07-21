@@ -23,26 +23,26 @@ const urunler = [
   { id: 104, kategori: "mutfak", altKategori: "Tupperware", baslik: "Tupperware Sebze Kurutucu", fiyat: 3000.00, kapakFoto: "img/urun_104.png" },
   
   // Mutfak / Diğer
-  { id: 15, kategori: "mutfak", altKategori: "Diğer", baslik: "Ay-bi Kasap Seti 4'lü", fiyat: 750.00, kapakFoto: "img/urun_15.png" },
-  { id: 16, kategori: "mutfak", altKategori: "Diğer", baslik: "Satır", fiyat: 500.00, kapakFoto: "img/urun_16.png" },
+  { id: 15, kategori: "mutfak", altKategori: "Diğer", baslik: "Ay-bi Kasap Seti 4'lü", fiyat: 850.00, kapakFoto: "img/urun_15.png" },
+  { id: 16, kategori: "mutfak", altKategori: "Diğer", baslik: "Satır", fiyat: 600.00, kapakFoto: "img/urun_16.png" },
   { id: 24, kategori: "mutfak", altKategori: "Diğer", baslik: "Hamur Matı", fiyat: 200.00, kapakFoto: "img/urun_24.png" },
-  { id: 25, kategori: "mutfak", altKategori: "Diğer", baslik: "Silpat", fiyat: 180.00, kapakFoto: "img/urun_25.png" },
-  { id: 26, kategori: "mutfak", altKategori: "Diğer", baslik: "Mutfak Lavabo Matı", fiyat: 150.00, kapakFoto: "img/urun_26.png" },
-  { id: 29, kategori: "mutfak", altKategori: "Diğer", baslik: "Tabak Bonesi", fiyat: 80.00, kapakFoto: "img/urun_29.png" },
-  { id: 33, kategori: "mutfak", altKategori: "Diğer", baslik: "Deterjan Hazneli Fırça", fiyat: 95.00, kapakFoto: "img/urun_33.png" },
-  { id: 34, kategori: "mutfak", altKategori: "Diğer", baslik: "Mutfak Makası", fiyat: 140.00, kapakFoto: "img/urun_34.png" },
-  { id: 35, kategori: "mutfak", altKategori: "Diğer", baslik: "Dondurma Kaşığı", fiyat: 110.00, kapakFoto: "img/urun_35.png" },
-  { id: 36, kategori: "mutfak", altKategori: "Diğer", baslik: "Dondurma Tepsisi", fiyat: 300.00, kapakFoto: "img/urun_36.png" },
-  { id: 37, kategori: "mutfak", altKategori: "Diğer", baslik: "Patates Püre Aparatı", fiyat: 130.00, kapakFoto: "img/urun_37.png" },
-  { id: 38, kategori: "mutfak", altKategori: "Diğer", baslik: "Gıda Termometresi", fiyat: 220.00, kapakFoto: "img/urun_38.png" },
-  { id: 48, kategori: "mutfak", altKategori: "Diğer", baslik: "4'lü Çam Nihale", fiyat: 160.00, kapakFoto: "img/urun_48.png" },
-  { id: 49, kategori: "mutfak", altKategori: "Diğer", baslik: "Şişe Açacak", fiyat: 75.00, kapakFoto: "img/urun_49.png" },
-  { id: 52, kategori: "mutfak", altKategori: "Diğer", baslik: "Yoğurt Süzme Kabı", fiyat: 250.00, kapakFoto: "img/urun_52.png" },
-  { id: 53, kategori: "mutfak", altKategori: "Diğer", baslik: "Ivory Sebze Dilimleme", fiyat: 380.00, kapakFoto: "img/urun_53.png" },
+  { id: 25, kategori: "mutfak", altKategori: "Diğer", baslik: "Silpat", fiyat: 200.00, kapakFoto: "img/urun_25.png" },
+  { id: 26, kategori: "mutfak", altKategori: "Diğer", baslik: "Mutfak Lavabo Matı", fiyat: 80.00, kapakFoto: "img/urun_26.png" },
+  { id: 29, kategori: "mutfak", altKategori: "Diğer", baslik: "Tabak Bonesi", fiyat: 90.00, kapakFoto: "img/urun_29.png" },
+  { id: 33, kategori: "mutfak", altKategori: "Diğer", baslik: "Deterjan Hazneli Fırça", fiyat: 50.00, kapakFoto: "img/urun_33.png" },
+  { id: 34, kategori: "mutfak", altKategori: "Diğer", baslik: "Mutfak Makası", fiyat: 150.00, kapakFoto: "img/urun_34.png" },
+  { id: 35, kategori: "mutfak", altKategori: "Diğer", baslik: "Dondurma Kaşığı", fiyat: 150.00, kapakFoto: "img/urun_35.png" },
+  { id: 36, kategori: "mutfak", altKategori: "Diğer", baslik: "Dondurma Tepsisi", fiyat: 250.00, kapakFoto: "img/urun_36.png" },
+  { id: 37, kategori: "mutfak", altKategori: "Diğer", baslik: "Patates Püre Aparatı", fiyat: 350.00, kapakFoto: "img/urun_37.png" },
+  { id: 38, kategori: "mutfak", altKategori: "Diğer", baslik: "Gıda Termometresi", fiyat: 150.00, kapakFoto: "img/urun_38.png" },
+  { id: 48, kategori: "mutfak", altKategori: "Diğer", baslik: "4'lü Çam Nihale", fiyat: 450.00, kapakFoto: "img/urun_48.png" },
+  { id: 49, kategori: "mutfak", altKategori: "Diğer", baslik: "Şişe Açacak", fiyat: 100.00, kapakFoto: "img/urun_49.png" },
+  { id: 52, kategori: "mutfak", altKategori: "Diğer", baslik: "Yoğurt Süzme Kabı", fiyat: 300.00, kapakFoto: "img/urun_52.png" },
+  { id: 53, kategori: "mutfak", altKategori: "Diğer", baslik: "Ivory Sebze Dilimleme", fiyat: 750.00, kapakFoto: "img/urun_53.png" },
   { id: 58, kategori: "mutfak", altKategori: "Diğer", baslik: "Çelik Kesme Panosu", fiyat: 600.00, kapakFoto: "img/urun_58.png" },
   { id: 59, kategori: "mutfak", altKategori: "Diğer", baslik: "Çelik Kesme Orta", fiyat: 550.00, kapakFoto: "img/urun_59.png" },
-  { id: 62, kategori: "mutfak", altKategori: "Diğer", baslik: "Yumurta Dublörü", fiyat: 120.00, kapakFoto: "img/urun_62.png" },
-  { id: 63, kategori: "mutfak", altKategori: "Diğer", baslik: "Fresh Cup", fiyat: 180.00, kapakFoto: "img/urun_63.png" },
+  { id: 62, kategori: "mutfak", altKategori: "Diğer", baslik: "Yumurta Dublörü", fiyat: 100.00, kapakFoto: "img/urun_62.png" },
+  { id: 63, kategori: "mutfak", altKategori: "Diğer", baslik: "Fresh Cup", fiyat: 100.00, kapakFoto: "img/urun_63.png" },
   { id: 65, kategori: "mutfak", altKategori: "Diğer", baslik: "İkili Burgu", fiyat: 850.00, kapakFoto: "img/urun_65.png" },
 
   // Ev Hijyen & Temizlik / Diğer
@@ -82,18 +82,18 @@ const urunler = [
   { id: 46, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Kurutma Topu", fiyat: 250.00, kapakFoto: "img/urun_46.png" },
 
   // Tekstil / Diğer
-  { id: 28, kategori: "tekstil", altKategori: "Diğer", baslik: "Halı Kaydırmaz", fiyat: 180.00, kapakFoto: "img/urun_28.png" },
-  { id: 39, kategori: "tekstil", altKategori: "Diğer", baslik: "Ütü Tabanlığı", fiyat: 100.00, kapakFoto: "img/urun_39.png" },
+  { id: 28, kategori: "tekstil", altKategori: "Diğer", baslik: "Halı Kaydırmaz", fiyat: 40.00, kapakFoto: "img/urun_28.png" },
+  { id: 39, kategori: "tekstil", altKategori: "Diğer", baslik: "Ütü Tabanlığı", fiyat: 120.00, kapakFoto: "img/urun_39.png" },
 
   // Tekstil / Giyim (yeni alt kategori)
-  { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 350.00, kapakFoto: "img/urun_55.png" },
+  { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 120.00, kapakFoto: "img/urun_55.png" },
 
   // Ayakkabı / Ayakkabı
   { id: 56, kategori: "ayakkabı", altKategori: "Ayakkabı", baslik: "Silikon Çorap", fiyat: 100.00, kapakFoto: "img/urun_56.png" },
 
   // Seyahat / Diğer (yeni kategori)
-  { id: 50, kategori: "seyahat", altKategori: "Diğer", baslik: "Seyahat Seti", fiyat: 250.00, kapakFoto: "img/urun_50.png" },
-  { id: 51, kategori: "seyahat", altKategori: "Diğer", baslik: "Seyahat Seti Lüks", fiyat: 400.00, kapakFoto: "img/urun_51.png" },
+  { id: 50, kategori: "seyahat", altKategori: "Diğer", baslik: "Seyahat Seti", fiyat: 130.00, kapakFoto: "img/urun_50.png" },
+  { id: 51, kategori: "seyahat", altKategori: "Diğer", baslik: "Seyahat Seti Lüks", fiyat: 180.00, kapakFoto: "img/urun_51.png" },
 
   // Diğer / Ev Eşyası (yeni kategori)
   { id: 57, kategori: "diğer", altKategori: "Ev Eşyası", baslik: "Koltuk Sehpası", fiyat: 100.00, kapakFoto: "img/urun_57.png" },
@@ -103,5 +103,5 @@ const urunler = [
 
   // Hediyelik Eşya / Tümü
   { id: 150, kategori: "hediyelik", altKategori: "Tümü", baslik: "%100 Doğal Onyx Taşından Elma", fiyat: 150.00, kapakFoto: "img/urun_150.png" },
-  { id: 151, kategori: "hediyelik", altKategori: "Tümü", baslik: "Masa Lambası", fiyat: 1200.00, kapakFoto: "img/urun_151.png" },
+  { id: 151, kategori: "hediyelik", altKategori: "Tümü", baslik: "Kar Küresi", fiyat: 1200.00, kapakFoto: "img/urun_151.png" },
 ]
