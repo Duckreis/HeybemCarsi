@@ -56,11 +56,7 @@ const urunler = [
 
   // Ev Hijyen & Temizlik / Forscher
   { id: 54, kategori: "temizlik", altKategori: "Forscher", baslik: "Amazing Temizlik Spreyi", fiyat: 190.00, kapakFoto: "img/urun_54.png" },
-
-   // Ev Hijyen & Temizlik / Forscher
   { id: 154, kategori: "temizlik", altKategori: "Forscher", baslik: "Fırın & Izgara Temizleyici", fiyat: 190.00, kapakFoto: "img/urun_154.png" },
- 
- // Ev Hijyen & Temizlik / Forscher
   { id: 155, kategori: "temizlik", altKategori: "Forscher", baslik: "Yağmur Giderici", fiyat: 190.00, kapakFoto: "img/urun_155.png" },
 
   // Ev Hijyen & Temizlik / Mop
