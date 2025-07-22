@@ -133,7 +133,7 @@ const urunler = [
   { id: 153, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Fan", fiyat: 300.00, kapakFoto: "img/urun_153.png" },
   { id: 164, kategori: "hediyelik", altKategori: "Tümü", baslik: "Konuşan Kaktüs", fiyat: 350.00, kapakFoto: "img/urun_165.png" },
   { id: 156, kategori: "hediyelik", altKategori: "Tümü", baslik: "Uyuyan Kedi", fiyat: 350.00, kapakFoto: "img/urun_156.png" },
-  { id: 165, kategori: "hediyelik", altKategori: "Tümü", baslik: "Işıklı Küre", fiyat: 300.00, kapakFoto: "img/urun_165.png" },
+  { id: 168, kategori: "hediyelik", altKategori: "Tümü", baslik: "Işıklı Küre", fiyat: 300.00, kapakFoto: "img/urun_168.png" },
   { id: 157, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Cep Islak Mendil", fiyat: 10.00, kapakFoto: "img/urun_157.png" },
   { id: 158, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Teneke Kutu Islak Mendil", fiyat: 50.00, kapakFoto: "img/urun_158.png" },
   { id: 159, kategori: "hediyelik", altKategori: "Tümü", baslik: "Çam Ağacı Mum", fiyat: 250.00, kapakFoto: "img/urun_159.png" },
