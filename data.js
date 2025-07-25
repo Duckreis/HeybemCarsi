@@ -80,6 +80,8 @@ const urunler = [
   { id: 61, kategori: "temizlik", altKategori: "Diğer", baslik: "Koku Topu", fiyat: 200.00, kapakFoto: "img/urun_61.png" },
   { id: 976, kategori: "temizlik", altKategori: "Diğer", baslik: "Fermuarlı 3'lü Çamaşır Filesi", fiyat: 130.00, kapakFoto: "img/urun_976.png" },
   { id: 977, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Güneş Koruyucu Şemsiye", fiyat: 450.00, kapakFoto: "img/urun_977.png" },
+  { id: 978, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Süpürgesi", fiyat:, kapakFoto: "img/urun_978.png" },
+  { id: 979, kategori: "temizlik", altKategori: "Diğer", baslik: "Sihirli Sabun", fiyat: 50.00, kapakFoto: "img/urun_979.png" },
 
   // Ev ürünleri & Hijyen Temizlik / BioBellinda
   { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },
@@ -110,6 +112,7 @@ const urunler = [
 
   // Tekstil / Giyim (yeni alt kategori)
   { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 120.00, kapakFoto: "img/urun_55.png" },
+  { id: 378, kategori: "tekstil", altKategori: "Giyim", baslik: "Eros 3'lü ", fiyat: 400.00, kapakFoto: "img/urun_378.png" },
 
   // Ayakkabı / Ayakkabı
   { id: 1800, kategori: "ayakkabı", altKategori: "Ayakkabı", baslik: "Dexter", fiyat: 1800.00, kapakFoto: "img/urun_1800.png" },
