@@ -79,8 +79,8 @@ const urunler = [
   { id: 47, kategori: "temizlik", altKategori: "Diğer", baslik: "Tüy Toplayan Gırgır", fiyat: 100.00, kapakFoto: "img/urun_47.png" },
   { id: 61, kategori: "temizlik", altKategori: "Diğer", baslik: "Koku Topu", fiyat: 200.00, kapakFoto: "img/urun_61.png" },
   { id: 976, kategori: "temizlik", altKategori: "Diğer", baslik: "Fermuarlı 3'lü Çamaşır Filesi", fiyat: 130.00, kapakFoto: "img/urun_976.png" },
-  { id: 977, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Süpürgesi", fiyat: 600.00, kapakFoto: "img/urun_977.png" },
-  { id: 978, kategori: "temizlik", altKategori: "Diğer", baslik: "Sihirli Sabun", fiyat: 50.00, kapakFoto: "img/urun_978.png" },
+  { id: 978, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Süpürgesi", fiyat: 600.00, kapakFoto: "img/urun_978.png" },
+  { id: 979, kategori: "temizlik", altKategori: "Diğer", baslik: "Sihirli Sabun", fiyat: 50.00, kapakFoto: "img/urun_979.png" },
 
   // Ev ürünleri & Hijyen Temizlik / BioBellinda
   { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },
