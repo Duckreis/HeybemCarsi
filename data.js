@@ -81,6 +81,7 @@ const urunler = [
   { id: 976, kategori: "temizlik", altKategori: "Diğer", baslik: "Fermuarlı 3'lü Çamaşır Filesi", fiyat: 130.00, kapakFoto: "img/urun_976.png" },
   { id: 978, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Süpürgesi", fiyat: 600.00, kapakFoto: "img/urun_978.png" },
   { id: 979, kategori: "temizlik", altKategori: "Diğer", baslik: "Sihirli Sabun", fiyat: 50.00, kapakFoto: "img/urun_979.png" },
+  { id: 977, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Şemsiyesi", fiyat: 450.00, kapakFoto: "img/urun_977.png" },
 
   // Ev ürünleri & Hijyen Temizlik / BioBellinda
   { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },
@@ -111,7 +112,9 @@ const urunler = [
 
   // Tekstil / Giyim (yeni alt kategori)
   { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 120.00, kapakFoto: "img/urun_55.png" },
-  { id: 841, kategori: "tekstil", altKategori: "Giyim", baslik: "Eros 3'lü Çamaşır", fiyat: 400.00, kapakFoto: "img/urun_841.png" },
+
+  // Tekstil / Çamaşır
+   { id: 841, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Eros 3'lü Çamaşır", fiyat: 400.00, kapakFoto: "img/urun_841.png" },
 
   // Ayakkabı / Ayakkabı
   { id: 1800, kategori: "ayakkabı", altKategori: "Ayakkabı", baslik: "Dexter", fiyat: 1800.00, kapakFoto: "img/urun_1800.png" },
@@ -136,7 +139,7 @@ const urunler = [
   { id: 153, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Fan", fiyat: 300.00, kapakFoto: "img/urun_153.png" },
   { id: 164, kategori: "hediyelik", altKategori: "Tümü", baslik: "Konuşan Kaktüs", fiyat: 350.00, kapakFoto: "img/urun_165.png" },
   { id: 156, kategori: "hediyelik", altKategori: "Tümü", baslik: "Uyuyan Kedi", fiyat: 350.00, kapakFoto: "img/urun_156.png" },
-  { id: 165, kategori: "hediyelik", altKategori: "Tümü", baslik: "Işıklı Küre", fiyat: 300.00, kapakFoto: "img/urun_165.png" },
+  { id: 168, kategori: "hediyelik", altKategori: "Tümü", baslik: "Işıklı Küre", fiyat: 300.00, kapakFoto: "img/urun_168.png" },
   { id: 157, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Cep Islak Mendil", fiyat: 10.00, kapakFoto: "img/urun_157.png" },
   { id: 158, kategori: "hediyelik", altKategori: "Tümü", baslik: "Mini Teneke Kutu Islak Mendil", fiyat: 50.00, kapakFoto: "img/urun_158.png" },
   { id: 159, kategori: "hediyelik", altKategori: "Tümü", baslik: "Çam Ağacı Mum", fiyat: 250.00, kapakFoto: "img/urun_159.png" },
