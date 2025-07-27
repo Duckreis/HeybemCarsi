@@ -82,6 +82,7 @@ const urunler = [
   { id: 978, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Süpürgesi", fiyat: 600.00, kapakFoto: "img/urun_978.png" },
   { id: 979, kategori: "temizlik", altKategori: "Diğer", baslik: "Sihirli Sabun", fiyat: 50.00, kapakFoto: "img/urun_979.png" },
   { id: 977, kategori: "temizlik", altKategori: "Diğer", baslik: "Araç Şemsiyesi", fiyat: 450.00, kapakFoto: "img/urun_977.png" },
+  { id: 981, kategori: "temizlik", altKategori: "Diğer", baslik: "Stanley Termos 0.88 Litre", fiyat: 1900.00, kapakFoto: "img/urun_981.png" },
 
   // Ev ürünleri & Hijyen Temizlik / BioBellinda
   { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },
