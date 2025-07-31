@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kategori</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo.png" alt="Heybem Çarşı Logo" class="site-logo">
+        </a>
+        <h1>Heybem Çarşı</h1>
+        <div class="cart-info">
+            <a href="sepet.html" class="cart-link">
+                <img src="img/cart-icon.png" alt="Sepet">
+                <span id="sepet-sayaci">(0)</span>
+            </a>
+        </div>
+    </div>
+    <p><a href="index.html">&larr; Anasayfa</a></p>
+  </header>
+
+  <main>
+    <section id="alt-kategoriler">
+      </section>
+
+    <section id="urunler" class="urunler">
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Heybem Çarşı | <a href="https://www.instagram.com/heybemcarsi/" target="_blank">Instagram</a></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script src="cart.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const kategori = urlParams.get("kat");
+
+    // Alt kategoriler listesi
+    const altKategoriler = {
+      "mutfak": ["Solingen", "Zwilling", "Tupperware", "Diğer"],
+      "temizlik": ["Forscher", "BioBellinda", "Mop", "Diğer"],
+      "tekstil": ["Çamaşır", "Elbise", "Giyim", "Diğer"],
+      "ayakkabı": ["Ayakkabı"],
+      "seyahat": ["Diğer"],
+      "diğer": ["Ev Eşyası", "Aydınlatma", "Diğer"],
+      "hediyelik": ["Tümü"],
+      "kampanya": ["Tümü"],
+    }
+
+    function altKategoriListele(kat) {
+      const altlar = altKategoriler[kat] || [];
+      const container = document.getElementById("alt-kategoriler");
+      container.innerHTML = "<h2>Alt Kategoriler</h2>" +
+        altlar.map(alt => `<button class="nav-button" onclick="urunleriGoster('${kat}', '${alt}')">${alt}</button>`).join("");
+    }
+
+    function urunleriGoster(kat, altKat) {
+      const secilen = urunler.filter(u => u.kategori === kat && u.altKategori === altKat);
+      const container = document.getElementById("urunler");
+      container.innerHTML = "";
+
+      if (secilen.length === 0) {
+        container.innerHTML = "<p>Bu alt kategoride ürün yok.</p>";
+        return;
+      }
+
+      secilen.forEach(urun => {
+        const urunDiv = document.createElement("div");
+        urunDiv.className = "product";
+        urunDiv.innerHTML = `
+          <img src="${urun.kapakFoto}" alt="${urun.baslik}" />
+          <h3>${urun.baslik}</h3>
+          <p>Fiyat: ${urun.fiyat.toFixed(2)}₺</p>
+          <a href="urun.html?id=${urun.id}"><button>Detaylar</button></a>
+          <button class="add-to-cart-btn" onclick="sepeteEkle(
+            ${urun.id},
+            '${urun.baslik.replace(/'/g, "\\'")}',
+            ${urun.fiyat},
+            '${urun.kapakFoto}'
+          )">Sepete Ekle</button>
+        `;
+        container.appendChild(urunDiv);
+      });
+    }
+
+    if (kategori) {
+      altKategoriListele(kategori);
+      // İlk alt kategoriyi otomatik seçip ürünleri göstermek isterseniz, aşağıdaki yorum satırını kaldırabilirsiniz:
+      // if (altKategoriler[kategori] && altKategoriler[kategori].length > 0) {
+      //   urunleriGoster(kategori, altKategoriler[kategori][0]);
+      // }
+    } else {
+      document.getElementById("alt-kategoriler").innerHTML = "<p>Kategori seçiniz.</p>";
+    }
+  </script>
+</body>
+</html>

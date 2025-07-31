@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heybem Çarşı</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function filtrele(kategoriAdi) {
+      window.location.href = `kategori.html?kat=${kategoriAdi}`;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo.png" alt="Heybem Çarşı Logo" class="site-logo">
+        </a>
+        <h1>Heybem Çarşı</h1>
+        <div class="cart-info"> <a href="sepet.html" class="cart-link">
+                <img src="img/cart-icon.png" alt="Sepet">
+                <span id="sepet-sayaci">(0)</span>
+            </a>
+        </div>
+    </div>
+    <p>Alışverişin Kolay Yolu</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><button onclick="filtrele('mutfak')">Mutfak Eşyaları</button></li>
+      <li><button onclick="filtrele('temizlik')">Ev Ürünleri & Hijyen Temizlik</button></li>
+      <li><button onclick="filtrele('kampanya')">⭐KAMPANYA⭐</button></li>
+      <li><button onclick="filtrele('tekstil')">Tekstil</button></li>
+      <li><button onclick="filtrele('ayakkabı')">Ayakkabı</button></li>
+      <li><button onclick="filtrele('hediyelik')">Hediyelik Eşya</button></li>
+ </ul>
+  </nav>
+
+  <main>
+    <section id="urunler">
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Heybem Çarşı | <a href="https://www.instagram.com/heybemcarsi/" target="_blank">Instagram</a></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script src="cart.js"></script> </body>
+</html>
