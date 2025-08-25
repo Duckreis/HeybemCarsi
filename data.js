@@ -85,7 +85,7 @@ const urunler = [
   { id: 981, kategori: "temizlik", altKategori: "Diğer", baslik: "Stanley Termos 0.88 Litre", fiyat: 1900.00, kapakFoto: "img/urun_981.png" },
 
   // Ev ürünleri & Hijyen Temizlik / BioBellinda
-  { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 230.00, kapakFoto: "img/urun_1101.png" },  
+  { id: 1101, kategori: "temizlik", altKategori: "BioBellinda", baslik: "BioBellinda 3x Ultra Konsantre Çamaşır Beyazlatıcı 750 ml", fiyat: 250.00, kapakFoto: "img/urun_1101.png" },  
 
   // Ev ürünleri & Hijyen Temizlik / Forscher
   { id: 54, kategori: "temizlik", altKategori: "Forscher", baslik: "Genel Temizlik Spreyi", fiyat: 150.00, kapakFoto: "img/urun_54.png" },
