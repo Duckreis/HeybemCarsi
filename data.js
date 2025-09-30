@@ -1,7 +1,7 @@
 const urunler = [
   // Yeni eklenen ürünler
   // Mutfak / Solingen
-  { id: 5, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Meyve Seti", fiyat: 300.00, kapakFoto: "img/urun_5.png" },
+  { id: 5, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Meyve Seti", fiyat: 350.00, kapakFoto: "img/urun_5.png" },
   { id: 6, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Micro Sebze Bıçağı", fiyat: 180.00, kapakFoto: "img/urun_6.png" },
   { id: 7, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Çapraz Bileme", fiyat: 280.00, kapakFoto: "img/urun_7.png" },
   { id: 8, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Rondo", fiyat: 400.00, kapakFoto: "img/urun_8.png" },
@@ -9,9 +9,9 @@ const urunler = [
   { id: 10, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Sebze Kurutucu", fiyat: 450.00, kapakFoto: "img/urun_10.png" },
   { id: 11, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Tel Çırpıcı", fiyat: 70.00, kapakFoto: "img/urun_11.png" },
   { id: 12, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Genel Kullanım Bıçak", fiyat: 520.00, kapakFoto: "img/urun_12.png" },
-  { id: 13, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Düz Soyacak", fiyat: 150.00, kapakFoto: "img/urun_13.png" },
+  { id: 13, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Düz Soyacak", fiyat: 180.00, kapakFoto: "img/urun_13.png" },
   { id: 1400, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Çift Taraflı Soyacak", fiyat: 100.00, kapakFoto: "img/urun_1400.png" },
-  { id: 14, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Yan Soyacak", fiyat: 150.00, kapakFoto: "img/urun_14.png" },
+  { id: 14, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Yan Soyacak", fiyat: 180.00, kapakFoto: "img/urun_14.png" },
 
   // Mutfak / Zwilling
   { id: 5603, kategori: "mutfak", altKategori: "Zwilling", baslik: "Zwilling 3'lü Bıçak Seti", fiyat: 5600.00, kapakFoto: "img/urun_5603.png" },
