@@ -110,7 +110,7 @@ const urunler = [
   { id: 640, kategori: "tekstil", altKategori: "Diğer", baslik: "Piknik Matı (2m*1.2m)", fiyat: 350.00, kapakFoto: "img/urun_640.png" },
 
   // Tekstil / Giyim (yeni alt kategori)
-  { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 120.00, kapakFoto: "img/urun_55.png" },
+  { id: 55, kategori: "tekstil", altKategori: "Giyim", baslik: "Yağmurluk", fiyat: 150.00, kapakFoto: "img/urun_55.png" },
 
   // Tekstil / Çamaşır
    { id: 841, kategori: "tekstil", altKategori: "Çamaşır", baslik: "Eros 3'lü Çamaşır", fiyat: 400.00, kapakFoto: "img/urun_841.png" },
