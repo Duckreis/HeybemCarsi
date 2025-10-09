@@ -105,7 +105,7 @@ const urunler = [
 
   // Tekstil / Diğer
   { id: 28, kategori: "tekstil", altKategori: "Diğer", baslik: "Halı Kaydırmaz", fiyat: 40.00, kapakFoto: "img/urun_28.png" },
-  { id: 39, kategori: "tekstil", altKategori: "Diğer", baslik: "Ütü Tabanlığı", fiyat: 120.00, kapakFoto: "img/urun_39.png" },
+  { id: 39, kategori: "tekstil", altKategori: "Diğer", baslik: "Ütü Tabanlığı", fiyat: 150.00, kapakFoto: "img/urun_39.png" },
   { id: 56, kategori: "tekstil", altKategori: "Diğer", baslik: "Silikon Çorap", fiyat: 100.00, kapakFoto: "img/urun_56.png" },
   { id: 640, kategori: "tekstil", altKategori: "Diğer", baslik: "Piknik Matı (2m*1.2m)", fiyat: 350.00, kapakFoto: "img/urun_640.png" },
 
