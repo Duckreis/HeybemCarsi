@@ -40,7 +40,7 @@ const urunler = [
   { id: 48, kategori: "mutfak", altKategori: "Diğer", baslik: "4'lü Çam Nihale", fiyat: 450.00, kapakFoto: "img/urun_48.png" },
   { id: 49, kategori: "mutfak", altKategori: "Diğer", baslik: "Şişe Açacak", fiyat: 100.00, kapakFoto: "img/urun_49.png" },
   { id: 52, kategori: "mutfak", altKategori: "Diğer", baslik: "Yoğurt Süzme Kabı", fiyat: 300.00, kapakFoto: "img/urun_52.png" },
-  { id: 53, kategori: "mutfak", altKategori: "Diğer", baslik: "Ivory Sebze Dilimleme", fiyat: 750.00, kapakFoto: "img/urun_53.png" },
+  { id: 53, kategori: "mutfak", altKategori: "Diğer", baslik: "Ivory Sebze Dilimleme", fiyat: 800.00, kapakFoto: "img/urun_53.png" },
   { id: 58, kategori: "mutfak", altKategori: "Diğer", baslik: "Çelik Kesme Panosu", fiyat: 600.00, kapakFoto: "img/urun_58.png" },
   { id: 59, kategori: "mutfak", altKategori: "Diğer", baslik: "Çelik Kesme Orta", fiyat: 550.00, kapakFoto: "img/urun_59.png" },
   { id: 62, kategori: "mutfak", altKategori: "Diğer", baslik: "Yumurta Dublörü", fiyat: 100.00, kapakFoto: "img/urun_62.png" },
