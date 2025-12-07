@@ -2,7 +2,7 @@ const urunler = [
   // Yeni eklenen ürünler
   // Mutfak / Solingen
   { id: 5, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Meyve Seti", fiyat: 350.00, kapakFoto: "img/urun_5.png" },
-  { id: 6, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Micro Sebze Bıçağı", fiyat: 180.00, kapakFoto: "img/urun_6.png" },
+  { id: 6, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Micro Sebze Bıçağı", fiyat: 200.00, kapakFoto: "img/urun_6.png" },
   { id: 7, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Çapraz Bileme", fiyat: 280.00, kapakFoto: "img/urun_7.png" },
   { id: 8, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Rondo", fiyat: 400.00, kapakFoto: "img/urun_8.png" },
   { id: 9, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Rende", fiyat: 350.00, kapakFoto: "img/urun_9.png" },
