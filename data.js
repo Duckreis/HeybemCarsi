@@ -71,7 +71,7 @@ const urunler = [
   { id: 30, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci (10'lu)", fiyat: 90.00, kapakFoto: "img/urun_30.png" },
   { id: 31, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Süzgeci Silikon", fiyat: 100.00, kapakFoto: "img/urun_31.png" },
   { id: 32, kategori: "temizlik", altKategori: "Diğer", baslik: "Gider Koku Önleyici Silikon", fiyat: 100.00, kapakFoto: "img/urun_32.png" },
-  { id: 40, kategori: "temizlik", altKategori: "Diğer", baslik: "WC Örtüsü (50'li)", fiyat: 150.00, kapakFoto: "img/urun_40.png" },
+  { id: 40, kategori: "temizlik", altKategori: "Diğer", baslik: "WC Örtüsü (50'li)", fiyat: 180.00, kapakFoto: "img/urun_40.png" },
   { id: 41, kategori: "temizlik", altKategori: "Diğer", baslik: "Biber Gazı", fiyat: 250.00, kapakFoto: "img/urun_41.png" },
   { id: 42, kategori: "temizlik", altKategori: "Diğer", baslik: "Kabak Lifli Sabun", fiyat: 120.00, kapakFoto: "img/urun_42.png" },
   { id: 43, kategori: "temizlik", altKategori: "Diğer", baslik: "Fiber Kese", fiyat: 120.00, kapakFoto: "img/urun_43.png" },
