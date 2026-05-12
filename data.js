@@ -1,4 +1,4 @@
-const urunler = [
+const urunle [
   // Yeni eklenen ürünler
   // Mutfak / Solingen
   { id: 5, kategori: "mutfak", altKategori: "Solingen", baslik: "Solingen Meyve Seti", fiyat: 350.00, kapakFoto: "img/urun_5.png" },
